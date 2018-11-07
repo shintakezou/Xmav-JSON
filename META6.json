@@ -12,10 +12,6 @@
 	"Xmav::JSON::Grammar" : "lib/Xmav/JSON/Grammar.pm6",
 	"Xmav::JSON::Actions" : "lib/Xmav/JSON/Actions.pm6"
     },
-    "depends" : [ ],
-    "build-depends" : [ ],
-    "test-depends" : [ ],
-    "resources" : [ ],
     "tags": [
         "JSON"
     ],

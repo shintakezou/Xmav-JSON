@@ -6,7 +6,8 @@ A Perl6 JSON module which deserializes (`from-json`) a JSON.
 
 - Proper errors handling,
 - serialization (`to-json`),
-- tests.
+- tests,
+- documentation.
 
 ## Notes
 
