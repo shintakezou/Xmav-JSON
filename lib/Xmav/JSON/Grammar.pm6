@@ -15,7 +15,7 @@ token json-value:sym<object> { <json-object> }
 token json-string { '"' ~ '"' <string-char>* }
 rule json-object  { '{' ~ '}' [ <object-pair>* % ',' ]? }
 rule json-array   { '[' ~ ']' [ <json-value>* % ',' ]? }
-token json-number { '-'? [ <[\d]-[0]>\d* <frac-part>? | '0'? <frac-part> ] <exp-part>? }
+token json-number { '-'? [ <[\d]-[0]>\d* <frac-part>? | '0'? <frac-part> | '0' ] <exp-part>? }
 
 token frac-part  { '.' \d+ }
 token exp-part   { <[eE]> <[+-]>? \d+ }
