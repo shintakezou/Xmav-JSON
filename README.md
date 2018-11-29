@@ -1,12 +1,14 @@
 # Xmav::JSON
 
+[![Build Status](https://travis-ci.org/shintakezou/Xmav-JSON.svg?branch=master)](https://travis-ci.org/shintakezou/Xmav-JSON)
+
 A Perl6 JSON module which deserializes (`from-json`) a JSON.
 
 ## TODO
 
 - Proper errors handling,
 - serialization (`to-json`),
-- tests,
+- more tests,
 - documentation.
 
 ## Notes
